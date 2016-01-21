@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="UE_Bytecode" ext="ucb" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="yes" Keywords2="yes" Keywords3="yes" Keywords4="yes" Keywords5="yes" Keywords6="yes" Keywords7="yes" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">LocalVariable InstanceVariable DefaultVariable StateVariable Return Switch Jump JumpIfNot Stop Assert Case Nothing LabelTable GotoLabel EatString Let DynArrayElement New ClassContext MetaCast LetBool EndParmValue EndFunctionParms Self Skip Context ArrayElement VirtualFunction FinalFunction IntConst FloatConst StringConst ObjectConst NameConst RotatorConst VectorConst ByteConst IntZero IntOne TRUE FALSE NativeParm NoObject Unknown_Deprecated IntConstByte BoolVariable DynamicCast Iterator IteratorPop IteratorNext StructCmpEq StructCmpNe UniStringConst StructMember DynArrayLen GlobalFunction PrimitiveCast DynArrayInsert ReturnNothing DelegateCmpEq DelegateCmpNe DelegateFunctionCmpEq DelegateFunctionCmpNE NoDelegate DynArrayRemove DebugInfo DelegateFunction DelegateProperty LetDelegate TernaryCondition DynArrFind DynArrayFindStruct OutVariable DefaultParmValue NoParm InstanceDelegate DynamicVariable DynamicVariable DynamicVariable DynamicVariable DynamicVariable InterfaceContext InterfaceCast EndOfScript DynArrAdd DynArrAddItem DynArrRemoveItem DynArrInsertItem DynArrIterator DynArrSort FilterEditorOnly</Keywords>
+            <Keywords name="Keywords2">ExtendedNative NativeFunction1 NativeFunction2 NativeFunction3 NativeFunction4 NativeFunction5 NativeFunction6 NativeFunction7 NativeFunction8 NativeFunction9 NativeFunctionA NativeFunctionB NativeFunctionC NativeFunctionD NativeFunctionE NativeFunctionF</Keywords>
+            <Keywords name="Keywords3">Concat_StringString GotoState EqualEqual_ObjectObject Less_StringString Greater_StringString Enable Disable NotEqual_ObjectObject LessEqual_StringString GreaterEqual_StringString EqualEqual_StringString NotEqual_StringString ComplementEqual_StringString StringLen InStr Mid Left Not_PreBool AndAnd_BoolBool XorXor_BoolBool OrOr_BoolBool MultiplyEqual_ByteByte DivideEqual_ByteByte AddEqual_ByteByte SubtractEqual_ByteByte AddAdd_PreByte SubtractSubtract_PreByte AddAdd_Byte SubtractSubtract_Byte Complement_PreInt EqualEqual_RotatorRotator Subtract_PreInt Multiply_IntInt Divide_IntInt Add_IntInt Subtract_IntInt LessLess_IntInt GreaterGreater_IntInt Less_IntInt Greater_IntInt LessEqual_IntInt GreaterEqual_IntInt EqualEqual_IntInt NotEqual_IntInt And_IntInt Xor_IntInt Or_IntInt MultiplyEqual_IntFloat DivideEqual_IntFloat AddEqual_IntInt SubtractEqual_IntInt AddAdd_PreInt SubtractSubtract_PreInt AddAdd_Int SubtractSubtract_Int Rand At_StringString Subtract_PreFloat MultiplyMultiply_FloatFloat Multiply_FloatFloat Divide_FloatFloat Percent_FloatFloat Add_FloatFloat Subtract_FloatFloat Less_FloatFloat Greater_FloatFloat LessEqual_FloatFloat GreaterEqual_FloatFloat EqualEqual_FloatFloat NotEqual_FloatFloat MultiplyEqual_FloatFloat DivideEqual_FloatFloat AddEqual_FloatFloat SubtractEqual_FloatFloat Abs Sin Cos Tan Atan Exp Loge Sqrt Square FRand GreaterGreaterGreater_IntInt IsA MultiplyEqual_ByteFloat Round Repl NotEqual_RotatorRotator ComplementEqual_FloatFloat Subtract_PreVector Multiply_VectorFloat Multiply_FloatVector Divide_VectorFloat Add_VectorVector Subtract_VectorVector EqualEqual_VectorVector NotEqual_VectorVector Dot_VectorVector Cross_VectorVector MultiplyEqual_VectorFloat DivideEqual_VectorFloat AddEqual_VectorVector SubtractEqual_VectorVector VSize Normal VSizeSq GetAxes GetUnAxes LogInternal WarnInternal Right Caps Chr Asc Locs EqualEqual_BoolBool NotEqual_BoolBool FMin FMax FClamp Lerp Min Max Clamp VRand Percent_IntInt EqualEqual_NameName NotEqual_NameName Sleep ClassIsChildOf FinishAnim SetCollision Move SetLocation Add_QuatQuat Subtract_QuatQuat SetOwner LessLess_VectorRotator GreaterGreater_VectorRotator Trace Destroy SetTimer IsInState SetCollisionSize GetStateName Multiply_RotatorFloat Multiply_FloatRotator Divide_RotatorFloat MultiplyEqual_RotatorFloat DivideEqual_RotatorFloat Multiply_VectorVector MultiplyEqual_VectorVector SetBase SetRotation MirrorVectorByNormal AllActors ChildActors BasedActors TouchingActors TraceActors VisibleActors VisibleCollidingActors DynamicActors Add_RotatorRotator Subtract_RotatorRotator AddEqual_RotatorRotator SubtractEqual_RotatorRotator RotRand CollidingActors ConcatEqual_StringString AtEqual_StringString SubtractEqual_StringString MoveTo MoveToward FinishRotation MakeNoise LineOfSightTo FindPathToward FindPathTo ActorReachable PointReachable FindStairRotation FindRandomDest PickWallAdjust WaitForLanding PickTarget PlayerCanSeeMe CanSee SaveConfig CanSeeByPoints UpdateURL GetURLMap FastTrace ProjectOnTo IsZero Subtract_PreVector2D Multiply_FloatVector2D EqualEqual_Vector2DVector2D NotEqual_Vector2DVector2D V2DSize V2DNormal Multiply_Vector2DVector2D MultiplyEqual_Vector2DVector2D MoveSmooth SetPhysics AutonomousPhysics</Keywords>
+            <Keywords name="Keywords4">@to_label @label</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6">From TypeA To TypeB InterfaceToBool InterfaceToString InterfaceToObject RotatorToVector ByteToInt ByteToBool ByteToFloat IntToByte IntToBool IntToFloat BoolToByte BoolToInt BoolToFloat FloatToByte FloatToInt FloatToBool ObjectToInterface ObjectToBool NameToBool StringToByte StringToInt StringToBool StringToFloat StringToVector StringToRotator VectorToBool VectorToRotator RotatorToBool ByteToString IntToString BoolToString FloatToString ObjectToString NameToString VectorToString RotatorToString DelegateToString StringToName</Keywords>
+            <Keywords name="Keywords7">ObjRef ObjRef_class ObjRef_member ObjRef_struct Expr Expr_left Expr_righ Expr_index Expr_array Expr_count Expr_cond Expr_ifTrue Expr_ifFalse Expr_name Expr_value Expr_item Expr_val Byte MemOff Short Labels MemSize RetValRef NameRef Int32 Float32 NullTerminatedString CastToken Params DelegateProperty</Keywords>
+            <Keywords name="Keywords8">/*DESCRIPTION_BEGIN*/ /*DESCRIPTION_END*/&#x000D;&#x000A;/*DIFF_REPLACE_FROM*/&#x000D;&#x000A;/*DIFF_REPLACE_TO*/&#x000D;&#x000A;/*DIFF_REPLACE_END*/</Keywords>
+            <Keywords name="Delimiters">00 01 02 03[ 04 05] 06{ 07 08} 09( 10 11) 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="6E6E6E" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="808000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="00EE3C" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="808000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="008080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="65536" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="67173390" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
